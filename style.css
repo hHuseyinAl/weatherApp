@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: url(images/3.jpg);
+    background-size: cover;
+}
+
+.card_wrapper{
+    height: 100dvh;
+}
+
+.card {
+    /* background-color: plum; */
+    width: 400px;
+    /* height: 500px; */
+    border: 1px solid rgb(58, 139, 238);
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 110px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: rgba(79, 176, 219, 0.78);
+    /* background-color: transparent; */
+}
+
+.top {
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+}
+
+.top button {
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.top i {
+    font-size: large;
+}
+
+p {
+    font-family: "Caveat", cursive;
+    font-size: large;
+    font-weight: 700;
+}
+
+.middle {
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1,
+h2 {
+    font-size: 2.1rem;
+}
+
+.bottom1 {
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    position: relative;
+    padding: 0 30px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.bottom2 {
+    /* background-color: orange; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px 20px 58px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+#h41 {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+#h42 {
+    position: absolute;
+    top: 37px;
+    left: 233px;
+}
+
+.middle,
+.bottom1,
+.bottom2 {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: none;
+    /* background-color: orange; */
+    color: red;
+}
